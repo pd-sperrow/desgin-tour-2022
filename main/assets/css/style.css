@@ -732,7 +732,7 @@ li {
 .slider-area .hero__caption span {
     font-size: 18px;
     font-family: "Sen", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 35px;
     text-transform: uppercase;
     color: #fff;
@@ -752,8 +752,8 @@ li {
 .slider-area .hero__caption span::before {
     position: absolute;
     content: "";
-    width: 70px;
-    height: 2px;
+    width: 85px;
+    height: 1px;
     background: #fff;
     top: 0;
     left: 0;
@@ -1397,6 +1397,12 @@ li {
     width: 100%;
     transform: scale(1);
     transition: all 0.6s ease-out 0s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.team-area .single-team .team-img img:hover {
+    -webkit-filter: none;
+    filter: none;
 }
 .team-area .single-team .team-caption {
     padding: 15px 0;
