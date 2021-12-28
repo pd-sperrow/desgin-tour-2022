@@ -1,24 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300, 400, 500, 700|Sarabun:400, 500, 600, 700, 800|Sen:400, 700&display=swap);
 .boxed-btn {
     background: #fff;
-    color: #331391 !important;
+    color: #0E7D74 !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Sarabun", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #331391;
+    border: 1px solid #0E7D74;
     letter-spacing: 3px;
     text-align: center;
-    color: #331391;
+    color: #0E7D74;
     text-transform: uppercase;
     cursor: pointer;
 }
 .boxed-btn:hover {
-    background: #331391;
+    background: #0E7D74;
     color: #fff !important;
-    border: 1px solid #331391;
+    border: 1px solid #0E7D74;
 }
 .boxed-btn:focus {
     outline: none;
@@ -48,6 +48,14 @@ p {
     line-height: 30px;
     margin-bottom: 15px;
     font-weight: normal;
+}
+.speaker-title {
+    font-family: "Roboto", sans-serif;
+    color: #10285d;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-weight: lighter;
 }
 .img {
     max-width: 100%;
@@ -127,7 +135,7 @@ li {
     padding-bottom: 120px;
 }
 .btn {
-    background: #331391;
+    background: #0E7D74;
     padding: 27px 44px;
     color: #fff;
     cursor: pointer;
@@ -155,7 +163,7 @@ li {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #3e44ec;
+    background: #FD6400;
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -186,15 +194,18 @@ li {
 .hero-btn {
     padding: 30px 39px;
     background: #fff;
-    color: #331391 !important;
+    color: #0E7D74 !important;
 }
 .hero-btn::before {
-    background: #e6c35c;
+    background: #FD6400;
+}
+.hero-btn:hover {
+    color: #ffffff !important;
 }
 .white-btn {
     padding: 30px 39px;
     background: #fff;
-    color: #331391 !important;
+    color: #0E7D74 !important;
 } 
 .white-btn:hover {
     color: #ffffff !important;
@@ -204,18 +215,18 @@ li {
     background: #000;
 }
 .black-btn::before {
-    background: #331391;
+    background: #0E7D74;
 }
 .white-btn {
     background: #fff;
     color: #000;
 }
 .white-btn::before {
-    background: #000;
+    background: #FD6400;
     color: #fff;
 }
 #back-top {
-    background: #331391;
+    background: #0E7D74;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -342,7 +353,7 @@ li {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-top-color: #331391;
+    border-top-color: #0E7D74;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -604,7 +615,7 @@ li {
     }
 }
 .header-area .main-header .main-menu ul li:hover > a {
-    color: #331391;
+    color: #0E7D74;
 }
 .header-area .main-header .main-menu ul ul.submenu {
     position: absolute;
@@ -633,7 +644,7 @@ li {
     margin: 0;
 }
 .header-area .main-header .main-menu ul ul.submenu > li > a:hover {
-    color: #331391;
+    color: #0E7D74;
     background: none;
 }
 .header-area .main-menu ul ul.submenu > li > a:hover {
@@ -711,13 +722,13 @@ li {
     }
 }
 .slider-area2 {
-    background-image: url(https://preview.colorlib.com/theme/eventz/assets/img/hero/xhero2.png.pagespeed.ic.WkctGjbq8u.png);
+    background-image: url('../img/gallery/home-background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slider-area {
     margin-top: -1px;
-    background-image: url(https://preview.colorlib.com/theme/eventz/assets/img/hero/xh1_hero.png.pagespeed.ic.T3ipcBSaTL.png);
+    background-image: url('../img/gallery/home-background.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1001,7 +1012,7 @@ li {
     margin-bottom: 45px;
 }
 .pricing-card-area .single-card.active {
-    background: #31118f;
+    background: #0E7D74;
     transform: scale(1.2);
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1028,13 +1039,13 @@ li {
 }
 .pricing-card-area .single-card.active .card-bottom .black-btn {
     background: #fff;
-    color: #331391 !important;
+    color: #0E7D74 !important;
 }
 .pricing-card-area .single-card.active .card-bottom .black-btn::before {
     background: #000;
 }
 .pricing-card-area .single-card:hover {
-    background: #31118f;
+    background: #0E7D74;
 }
 .pricing-card-area .single-card:hover .card-top {
     border-bottom: 1px solid #fff;
@@ -1051,7 +1062,7 @@ li {
 .pricing-card-area .single-card:hover .card-bottom .black-btn {
     padding: 14px 35px;
     background: #fff;
-    color: #331391 !important;
+    color: #0E7D74 !important;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .work-company .single-logo img {
@@ -1160,7 +1171,7 @@ li {
     font-weight: 500;
 }
 .accordion .accordion-wrapper .card-header a span {
-    color: #331391;
+    color: #0E7D74;
     font-size: 16px;
     font-weight: 800;
 }
@@ -1207,7 +1218,7 @@ li {
     position: absolute;
     height: 15px;
     width: 15px;
-    background: #331391;
+    background: #0E7D74;
     content: "";
     left: 0;
     right: 0;
@@ -1221,7 +1232,7 @@ li {
 }
 .accordion .nav-tabs .nav-item {
     display: block;
-    color: #331391;
+    color: #0E7D74;
     font-size: 24px;
     font-weight: 700;
 }
@@ -1232,7 +1243,7 @@ li {
 }
 .accordion .nav-tabs .nav-item.show .nav-link,
 .accordion .nav-tabs .nav-link.active {
-    background: #331391;
+    background: #0E7D74;
     color: #fff;
     -webkit-transition: all 0s ease-out 0s;
     -moz-transition: all 0s ease-out 0s;
@@ -1315,7 +1326,7 @@ li {
     position: absolute;
     z-index: 1;
     left: 0;
-    bottom: -73px;
+    bottom: -64px;
 }
 @media (max-width: 575px) {
     .about-low-area .about-img .about-font-img img {
@@ -1415,13 +1426,13 @@ li {
     color: #fff;
 }
 .team-area .single-team .team-caption2 h3 a {
-    color: #331391;
+    color: #0E7D74;
 }
 .team-area .single-team .team-caption2 h3 a:hover {
-    color: #331391;
+    color: #0E7D74;
 }
 .team-area .single-team .team-caption2 p {
-    color: #331391;
+    color: #0E7D74;
 }
 .team-area .single-team:hover .team-img img {
     transform: scale(1.06);
@@ -1553,12 +1564,12 @@ li {
     border: 0;
     cursor: pointer;
     padding: 13px 22px;
-    background: #331391;
+    background: #0E7D74;
     line-height: 1;
     border-radius: 0 3px 3px 0;
 }
 .footer-area .info.error {
-    color: #331391;
+    color: #0E7D74;
 }
 .footer-bottom-area {
     background: #060018;
@@ -1585,10 +1596,10 @@ li {
     }
 }
 .footer-bottom-area .footer-copy-right p i {
-    color: #331391;
+    color: #0E7D74;
 }
 .footer-bottom-area .footer-copy-right p a {
-    color: #331391;
+    color: #0E7D74;
 }
 .footer-bottom-area .footer-copy-right p a:hover {
     color: #fff;
@@ -1756,7 +1767,7 @@ li {
     display: block;
 }
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a:hover {
-    color: #331391;
+    color: #0E7D74;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a {
@@ -1798,7 +1809,7 @@ li {
 }
 .blog_area a:hover,
 .blog_area a :hover {
-    background: -webkit-linear-gradient(131deg, #331391 0%, #331391 99%);
+    background: -webkit-linear-gradient(131deg, #0E7D74 0%, #0E7D74 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -1823,7 +1834,7 @@ li {
     color: #242b5e;
 }
 .blog_details a:hover {
-    color: #331391;
+    color: #0E7D74;
 }
 .blog_details h2 {
     font-size: 18px;
@@ -1871,7 +1882,7 @@ li {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #331391;
+    background-color: #0E7D74;
     padding: 8px 15px;
     border-radius: 5px;
 }
@@ -1940,7 +1951,7 @@ li {
     box-shadow: none;
 }
 .blog_right_sidebar .search_widget .input-group button {
-    background: #331391;
+    background: #0E7D74;
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 4px 15px;
@@ -2038,7 +2049,7 @@ li {
     font-size: 13px;
 }
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #331391;
+    background: #0E7D74;
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -2197,7 +2208,7 @@ li {
     display: inline-block;
 }
 .single-post-area .blog-author a:hover {
-    color: #331391;
+    color: #0E7D74;
 }
 .single-post-area .blog-author p {
     margin-bottom: 0;
