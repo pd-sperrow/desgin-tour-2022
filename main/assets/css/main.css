@@ -57,3 +57,18 @@
         width: 48px;
     }
 }
+.dorik {
+    margin-left: 15px;
+}
+@media (max-width: 575px) {
+    .dorik {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .dorik img {
+        width: 100%;
+    }
+    .others-sponsor {
+        padding: auto;
+    }
+}
